@@ -6,11 +6,13 @@ This repository contains a series of Python scripts designed as an assignment to
 
 ## 📂 Directory Structure
 
+```bash
 python-apis-oop-assignment/
 ├─ src/ # Contains all the assignment solution scripts
 ├─ tests/ # Contains optional smoke tests
 ├─ requirements.txt # Project dependencies
 └─ README.md # Instructions and project overview
+```
 
 ---
 
