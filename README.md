@@ -26,9 +26,10 @@ Clone the repository (if applicable):
 ```bash
 git clone <repository-url>
 cd python-apis-oop-assignment
+```
 
-
-How to Run the Scripts
+## How to Run the Scripts
+```bash
 All assignment scripts are located in the src/ directory and can be run directly from the root of the project folder.
 
 The general command format is:
@@ -47,13 +48,18 @@ python src/q06_requests_get.py
 To run the CLI HTTP client:
 This script accepts command-line arguments.
 
+```
+
 # Example GET request
+```bash
 python src/q12_cli_http_client.py --method GET --url [https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)
 
 # Example POST request
 python src/q12_cli_http_client.py --method POST --url [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) --data '{"title": "foo", "body": "bar", "userId": 1}'
+```
 
-Running Tests (Optional)
+## Running Tests (Optional)
+```bash
 Simple smoke tests are provided to perform basic checks. You can run them with the following command:
 
 python tests/smoke_tests.py
@@ -85,3 +91,4 @@ q11_fetch_with_status_handling.py: Fetches a URL and handles the response based 
 
 q12_cli_http_client.py: A command-line tool for making basic HTTP requests.
 
+```
