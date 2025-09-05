@@ -31,34 +31,40 @@ cd python-apis-oop-assignment
 ```
 
 ## How to Run the Scripts
-```bash
+
 All assignment scripts are located in the src/ directory and can be run directly from the root of the project folder.
 
 The general command format is:
 
+```bash
 python src/<script_name>.py
+```
 
 Examples
 To run the basic OOP script:
 
+```bash
 python src/q01_oop_book_basics.py
-
+```
 To run the requests GET example:
 
+```bash
 python src/q06_requests_get.py
+```
 
 To run the CLI HTTP client:
 This script accepts command-line arguments.
 
-```
+---
 
-# Example GET request
+## Example GET request
 ```bash
 python src/q12_cli_http_client.py --method GET --url [https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)
 
 # Example POST request
 python src/q12_cli_http_client.py --method POST --url [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) --data '{"title": "foo", "body": "bar", "userId": 1}'
 ```
+---
 
 ## Running Tests (Optional)
 ```bash
