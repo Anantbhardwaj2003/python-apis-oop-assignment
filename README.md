@@ -1,23 +1,32 @@
 # Python OOP and APIs Assignment
-This repository contains a series of Python scripts designed as an assignment to practice Object-Oriented Programming (OOP) concepts and how to interact with web APIs using the requests library.
 
-# Directory Structure
+This repository contains a series of Python scripts designed as an assignment to practice **Object-Oriented Programming (OOP)** concepts and how to interact with **web APIs** using the `requests` library.
+
+---
+
+## 📂 Directory Structure
+
 python-apis-oop-assignment/
-├─ src/                      # Contains all the assignment solution scripts
-├─ tests/                    # Contains optional smoke tests
-├─ requirements.txt          # Project dependencies
-└─ README.md                 # Instructions and project overview
+├─ src/ # Contains all the assignment solution scripts
+├─ tests/ # Contains optional smoke tests
+├─ requirements.txt # Project dependencies
+└─ README.md # Instructions and project overview
 
-Prerequisites
-Python 3.8 or newer
+---
 
-pip for package installation
+## ✅ Prerequisites
+- Python **3.8** or newer  
+- `pip` for package installation  
 
-Setup and Installation
+---
+
+## ⚙️ Setup and Installation
 Clone the repository (if applicable):
 
--- git clone <repository-url>
--- cd python-apis-oop-assignment
+```bash
+git clone <repository-url>
+cd python-apis-oop-assignment
+
 
 How to Run the Scripts
 All assignment scripts are located in the src/ directory and can be run directly from the root of the project folder.
